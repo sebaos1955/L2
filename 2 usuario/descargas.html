@@ -1,0 +1,153 @@
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Bootstrap 4</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="index.html">L2Server</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown-ranking" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ranking</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown-ranking">
+						<a class="dropdown-item" href="top_pvp.html">Top PvP</a>
+						<a class="dropdown-item" href="top_pk.html">Top PK</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown-estado" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estado</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown-estado">
+						<a class="dropdown-item" href="raid_boss.html">Raid Boss</a>
+						<a class="dropdown-item" href="grand_boss.html">Grand Boss</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="donacion.html">Donación</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="informacion.html">Información</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="descargas.html">Descargas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="registro.html">Registro</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="iniciar_sesion.html">Iniciar sesión</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<br><br><br>
+	<div class="container">
+		<!-- Example row of columns -->
+		<center><h1>Descargas</h1></center>
+		<div class="row">
+			<div class="col-7">
+				<div id="accordion" role="tablist">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne">
+							<h5 class="mb-0">
+								<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Cliente
+								</a>
+							</h5>
+						</div>
+
+						<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<div class="btn-group btn-group-lg" role="group" aria-label="">
+									<button type="button" class="btn btn-dark">MEGA</button>
+									<button type="button" class="btn btn-dark">MEDIAFIRE</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" role="tab" id="headingTwo">
+							<h5 class="mb-0">
+								<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Parche
+								</a>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<div class="btn-group btn-group-lg" role="group" aria-label="...">
+									<button type="button" class="btn btn-dark">MEGA</button>
+									<button type="button" class="btn btn-dark">MEDIAFIRE</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<h2>Requisitos del sistema</h2>
+				<p>
+					<a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Requisitos mínimos</a>
+					<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample1">Requisitos recomendados</button>
+				</p>
+				<div class="row">
+					<div class="col">
+						<div class="collapse multi-collapse" id="multiCollapseExample1">
+							<div class="card card-body bg-warning">
+								<ul class="list-group">
+									<li class="list-group-item"><strong>Sistema operativo:</strong> Windows® XP/Me/2000/98</li>
+									<li class="list-group-item"><strong>Procesador:</strong> 800 MHz</li>
+									<li class="list-group-item"><strong>Memoria:</strong> 256 MB RAM</li>
+									<li class="list-group-item"><strong>Espacio en disco duro:</strong> 2.2 GB</li>
+									<li class="list-group-item"><strong>Tarjeta gráfica:</strong> 32 MB VRAM</li>
+									<li class="list-group-item"><strong>Directx:</strong> v8.1</li>
+									<li class="list-group-item"><strong>Conexión a Internet:</strong> 56K</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="collapse multi-collapse" id="multiCollapseExample2">
+							<div class="card card-body bg-success">
+								<ul class="list-group">
+									<li class="list-group-item"><strong>Procesador:</strong> 1.5 GHz</li>
+									<li class="list-group-item"><strong>Memoria:</strong> 512 MB RAM</li>
+									<li class="list-group-item"><strong>Tarjeta gráfica:</strong> 64 MB VRAM</li>
+									<li class="list-group-item"><strong>Conexión a Internet:</strong> De banda ancha</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-5">
+				<img src="img/male_elf_archer_dynasty.png">
+			</div>
+		</div>
+		<hr>
+
+		<footer>
+			<p>Hecho con <strong>Bootstrap 4</strong> </p>
+		</footer>
+	</div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    	================================================== -->
+    	<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="js/jquery-3.2.1.slim.min.js"></script>
+    	<script src="js/popper.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    </body></html>
